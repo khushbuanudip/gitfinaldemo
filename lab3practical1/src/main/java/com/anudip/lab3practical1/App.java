@@ -19,6 +19,7 @@ public class App
 
         driver.get("https://www.google.com");
 
+          System.out.println("git demo");
         // Locate search box using Name locator
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys("Selenium WebDriver");
